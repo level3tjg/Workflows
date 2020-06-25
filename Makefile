@@ -9,7 +9,8 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = Shortcuts
 
-Workflows_FILES = Tweak.x
-Workflows_CFLAGS = -fobjc-arc
+Shortcuts_FILES = Tweak.x
+Shortcuts_CFLAGS = -fobjc-arc
+Shortcuts_LIBRARIES = mryipc
 
 include $(THEOS_MAKE_PATH)/tweak.mk

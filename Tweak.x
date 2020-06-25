@@ -1,5 +1,5 @@
 #import <dlfcn.h>
-#import "Workflows.h"
+#import "Shortcuts.h"
 
 @interface WFManager : NSObject{
 	WFWorkflowController *_controller;

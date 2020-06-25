@@ -1,5 +1,5 @@
-Package: com.level3tjg.workflows
-Name: Workflows
+Package: com.level3tjg.shortcuts
+Name: Shortcuts
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
